@@ -1,7 +1,7 @@
 # โปรเจคกลุ่ม วิชา  265472--Special Topics in Data Science
 
 **กลุ่มที่ 2** ………………………………………………………………………………………………
-> Git repo.: https://github.com/sasipaa/ProjectH.git
+> Git repo.: https://github.com/sasipaa/Project-FANP.git
 ## สมาชิกกลุ่ม
 - **หัวหน้าทีม** : 	นางสาวศศิภา อ้ายตา 64315667
 - สมาชิก #1:      นายธนพล เชื้อบุญมี 64312147
