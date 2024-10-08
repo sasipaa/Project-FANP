@@ -74,9 +74,12 @@ if TMD_API_TOKEN:
     print("โหลด API Token สำเร็จแล้ว")
     # รับวันที่เวลาปัจจุบันในเวลา 08:00 น.
     now = datetime.now()
+    # กำหนดให้เป็นวันที่ 2024-10-04 เวลา 08:00 น.
     start_time = now.replace(hour=8, minute=0, second=0, microsecond=0).isoformat()
+    # start_time = now.replace(year=2024, month=10, day=4, hour=8, minute=0, second=0, microsecond=0).isoformat()
+
 
     print(f"กำหนดเวลาเริ่มต้นการดึงข้อมูลวันที่ {start_time}")
-    fetch_weather_forecast(TMD_API_TOKEN, domain="2", province="นครปฐม", amphoe="สามพราน", start_time=start_time)
+    fetch_weather_forecast(TMD_API_TOKEN, domain="2", province="พิษณุโลก", amphoe="เมืองพิษณุโลก", start_time=start_time)
 else:
     print("ไม่พบโทเค็น API โปรดตรวจสอบไฟล์ .env ของคุณ")

@@ -1,2 +1,4 @@
-# /.venv
-weather_forecast_data.csv
+/data
+dags_update_date.py
+dags.py
+/.venv
